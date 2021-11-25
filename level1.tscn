@@ -160,8 +160,11 @@ texture = ExtResource( 1 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 8 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( 655368, 5, 0, 1114111, 5, 0, 1048581, 5, 0, 1048587, 5, 0, 1048593, 5, 0, 1048599, 5, 0, 1048605, 5, 0 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 9 )]
-position = Vector2( 88.3798, 468.77 )
+position = Vector2( 76.3211, 397.924 )
 scale = Vector2( 0.685579, 0.631789 )
 
