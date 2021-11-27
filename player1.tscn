@@ -20,4 +20,3 @@ playing = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -0.0807495, 34.583 )
 shape = SubResource( 2 )
-
